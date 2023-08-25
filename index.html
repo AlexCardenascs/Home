@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>Alex Cardenas</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="overlay"></div>
+        <div class="background-overlay">
+            <img class="profile-pic" src="Me1.jpeg" alt="Your profile picture">
+            <h1>Alex Cardenas</h1>
+            <div class="school-desc">
+                <p>Computer Science and Data Science Major<br> at New York University Stern School of Business</p>
+            </div>
+           
+            <ul class="icons">
+                <li>
+                <a href="https://www.linkedin.com/in/alex-cardenas-473946232/" class="icon-linkedin" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                <a href="https://github.com/AlexCardenascs" class="icon-github" target="_blank">GitHub</a>
+                </li>
+                <li>
+                <a href="mailto:alex.cardenascs@gmail.com" class="icon-email" target="_blank">Email</a>
+                </li>
+            </ul>
+
+            <button id="about-btn">About Me</button>
+            <div id="about-text" class="hidden">
+                <p class="text">As a data science and machine learning enthusiast, I am currently pursuing my passions at the University level. I have always been fascinated by the power of data to drive decision making and by the potential of machine learning algorithms to improve our understanding of the world around us. In my studies, I have gained a strong foundation in statistical analysis, programming, and data visualization, and I am eager to continue learning and applying my skills to real-world problems. I am particularly interested in using data science and machine learning to drive positive change in industries such like finance. I am excited to continue my growth as a data scientist and to contribute my skills and expertise to organizations that share my passion for using data to drive progress. </p>
+            </div>
+        </div>
+    </div>
+
+        <div class="content">
+            <div id="experience" class="work">
+                <div class="work-type"><p>Professional Experience</p> </div>
+                <div class="rectangle-separator"></div>
+                    <div class="entries">
+                        <div class="row">
+                            <div class="job-entry">
+                                <img src="socialtrade1.png" alt="entry-image">
+                                <div class="company-content">
+
+                                    <div class="company-name">
+                                        <p>Social Trade Inc.</p>
+                                    </div>
+
+                                    <div class="company-title">
+                                        <p>Programmer</p>
+                                    </div>
+
+                                    <div class="job-duration"> 
+                                        <p>Aug 2023</p>
+                                    </div>
+
+                                    <div class="job-responsibilities">
+                                            <p class="job-desc">
+                                                You can access the web version of our platform <a href="https://socialtr.io/">here</a>. The news tab contains our currently deployed real-time financial news integration. Our Instagram page can be found <a href="https://www.instagram.com/socialtr.io/">here.</a>
+                                                <br>
+                                                <br>
+                                                • At an early-stage startup, contributed to architecting a Python-based backend pipeline using Flask and SQLAlchemy, seamlessly integrating multiple news APIs and custom web scraping scripts for real-time financial news aggregation.
+                                                <br>
+                                                • Assisted in designing and optimizing PostgreSQL database schemas to manage the high volume of daily news entries, leveraging indexing and partitioning strategies for rapid retrieval and consistency in a rapidly evolving market.
+                                                <br>
+                                                • Developed API endpoints with RESTful principles using Flask, implemented caching mechanisms with Redis to reduce database load, and utilized Git for version control in a collaborative environment, ensuring code integrity and efficient feature integration.
+                                                
+                                                
+                                            </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="job-entry">
+                                <img src="mlbpa1.png" alt="entry-image">
+                                <div class="company-content">
+    
+                                    <div class="company-name">
+    
+                                        <p class="comp-name-text">Major League Baseball's Player Association</p>
+                                    </div>
+    
+                                    <div class="company-title">
+                                        <p>Finance Intern</p>
+                                    </div>
+    
+                                    <div class="job-duration"> 
+                                        <p>Jul 2023 - Aug 2023</p>
+                                    </div>
+    
+                                    <div class="job-responsibilities">
+                                        <p class="job-desc">
+                                            • Spearheaded the digitization of pivotal MLBPA financial records, boosting the efficiency of accounts receivable and payable systems. This revamp streamlined financial workflows.
+    
+                                            <br>
+                                            
+                                            • Played an integral role in the MLBPA's corporate budgeting cycle. Applied advanced Excel functionalities and PowerBI dashboards to offer real-time variance analysis insights, enhancing the department's financial forecasting capabilities.
+                                            
+                                            <br> 
+                                            
+                                            • Facilitated a seamless collaboration between the HR & Finance departments of the MLBPA. Led an initiative to optimize payroll operations by introducing automated check stop protocols, guaranteeing precision and punctuality in salary disbursements to union members.
+                                            
+                                            <br>
+                                            
+                                            • Managed the accounts payable system at the MLBPA, overseeing the processing and validation of over 500 invoices monthly. Leveraged advanced Excel tools and PowerBI for real-time invoice tracking, analytics, and efficient data management.
+                                            
+                                            <br>
+                                            • Employed advanced excel analytical skills to pinpoint and resolve financial discrepancies in both accounts receivable and payable. By introducing automated discrepancy alerts, we saw a 25% reduction in monthly accounts financial irregularities.
+    
+                                        
+                                        
+                                        </p>                               
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+
+                        </div>
+
+
+                        <div class="row">
+                            <div class="job-entry">
+                                <img src="fanamp1.png" alt="entry-image">
+                                <div class="company-content">
+
+                                    <div class="company-name">
+                                        <p>FanAmp</p>
+                                    </div>
+
+                                    <div class="company-title">
+                                        <p>Data Engineering Intern</p>
+                                    </div>
+
+                                    <div class="job-duration"> 
+                                        <p>May 2023 - Jul 2023</p>
+                                    </div>
+
+                                    <div class="job-responsibilities">
+                                            <p class="job-desc">
+                                                • Devised and implemented Python-based automated data pipelines, driving efficiency and reliability in the delivery of real-time data to FanAmp's interactive application and ensuring the delivery of accurate and timely data to in-house data analysts.
+                                            <br> 
+                                                • Deployed APIs and utilized Selenium for web scraping, gathering a comprehensive database of historical F1 data, bolstering the depth of real-time app display and data analysis capabilities.
+                                            <br> 
+                                                • Contributed to the conceptualization of a robust data schema, optimizing the sorting and management of multi-faceted data assets
+
+                                            
+                                            
+                                            </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="job-entry">
+                                <img src="stern1.png" alt="entry-image">
+                                <div class="company-content">
+
+                                    <div class="company-name">
+                                        <p>NYU Stern Research</p>
+                                    </div>
+
+                                    <div class="company-title">
+                                        <p>Data Science Assistant</p>
+                                    </div>
+
+                                    <div class="job-duration"> 
+                                        <p>Feb 2023 - Apr 2023</p>
+                                    </div>
+
+                                    <div class="job-responsibilities">
+                                            <p class="job-desc">
+                                                The comprehensive overview of the research program I participated in is provided <a href="ISF 30.pdf">here</a>. Meanwhile, details about the disagreement measure construction are available <a href="Constructing our measure of disagreement.docx">here</a>.
+                                                <br>
+                                                <br>
+                                                • Extracted large-scale financial data from multiple databases (IBES, COMPUSTAT, S&P), using WRDS as a key resource.
+                                                <br>
+                                                
+                                                • Executed data quality controls and transformed raw information into structured datasets according to project parameters.
+                                                <br>
+                                                
+                                                
+                                                • Co-developed and validated a novel, theoretically sound measure of analysts’ disagreement, addressing existing methodological limitations in financial research.
+                                            
+                                            
+                                            </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+            </div>
+            <div id="projects" class="work">
+                <div class="work-type"> <p>Personal Project</p> </div>
+                <div class="rectangle-separator"></div>
+
+                    <div class="entries">
+                        <div class="row">
+                            <div class="job-entry">
+                                <img src="Project1.png" alt="entry-image">
+                                <div class="company-content">
+
+                                    <div class="company-name">
+                                        <p>LSTM Forecasting</p>
+                                    </div>
+
+                                    <div class="company-title">
+                                        <p>Basketball Player Statistics</p>
+                                    </div>
+
+                                    <div class="job-duration"> 
+                                        <p>Apr 2023</p>
+                                    </div>
+
+                                    <div class="job-responsibilities">
+                                        <p class="job-desc">
+                                            You can access the github repository of my project <a href="https://github.com/AlexCardenascs/LSTM-Basketball-2022">here</a>.
+                                            <br>
+                                            <br>
+                                            
+                                            • Developed a robust data acquisition system using Python and Selenium for web scraping, seamlessly integrating various basketball APIs and assimilating player statistics spanning five NBA seasons, ensuring a richer dataset for sophisticated predictive analytics.
+                                            <br>
+                                            • Constructed and fine-tuned LSTM neural network models, honing their capacity to project the season-long statistical trajectory of individual NBA players in the realm of fantasy basketball.
+                                            <br>
+                                            • Engineered an intuitive web-based front-end, enabling users to obtain tailored projections of NBA fantasy statistics for distinct intervals (weeks) throughout the NBA season.
+                                            <br>
+                                            • Leveraged advanced combinatorial algorithms in conjunction with statistical methodologies to synthesize and appraise myriad unique player lineup permutations, systematically ranking them based on anticipated fantasy performance and associated confidence intervals.
+                                        
+                                        </p>
+                                </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+            </div>
+            <div id="extracurricular" class="work">
+                <div class="work-type"> <p>Extracurricular Activities</p></div>
+                <div class="rectangle-separator"></div>
+                    <div class="entries">
+                        <div class="row">
+                            <div class="job-entry">
+                                <img src="BAC1.png" alt="entry-image">
+                                <div class="company-content">
+
+                                    <div class="company-name">
+                                        <p>Business & Analytics Club</p>
+                                    </div>
+
+                                    <div class="company-title">
+                                        <p>Quant Mentorship Member</p>
+                                    </div>
+
+                                    <div class="job-duration"> 
+                                        <p>Feb 2022 - May 2022</p>
+                                    </div>
+
+                                    <div class="job-responsibilities">
+                                            <p class="job-desc">
+                                                <a href="https://www.sternbac.org/">Club Website</a>
+                                                <br>
+                                                <a href="https://www.instagram.com/sternbac/">Instagram Club Link</a>
+                                                <br>
+                                                <br>
+                                                • Engaged in an intensive 8-week personal and professional development program with a group of 12 peers, focusing on enhancing both personal and professional skills.
+                                                <br>
+                                                • Acquired transferable quantitative skills in micro and macroeconomic analysis, including proficiency in calculus II-III and statistical modeling techniques. through an intensive 8-week personal and professional development program
+                                            
+                                            
+                                            </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="job-entry">
+                                <img src="Block1.png" alt="entry-image">
+                                <div class="company-content">
+
+                                    <div class="company-name">
+                                        <p>Blockchain & Fintech Club</p>
+                                    </div>
+
+                                    <div class="company-title">
+                                        <p>General Member</p>
+                                    </div>
+
+                                    <div class="job-duration"> 
+                                        <p>Oct 2022 - Present</p>
+                                    </div>
+
+                                    <div class="job-responsibilities">
+                                            <p class="job-desc">
+                                                <a href="https://engage.nyu.edu/organization/blockchain-and-fintech-club">Engage Club Link</a>
+                                                <br>
+                                                <a href="https://www.instagram.com/nyublockchainfintech/">Instagram Club Link</a>
+                                                <br>
+                                                <br>
+                                                • As an active member of the Blockchain & Fintech club, I delved deeply into distributed ledger technologies, critically evaluating their underlying algorithms and consensus mechanisms. I particularly focused on the nuances of smart contracts, understanding their potential to automate complex transactions and exploring their application across a myriad of industries.
+                                                <br>
+                                                • Within the club, I engaged in collaborative brainstorming sessions and case study analyses with peers. Together, we assessed the disruptive potential of blockchain in sectors such as finance, supply chain, and healthcare, thereby honing our strategic thinking and fostering a shared vision for a decentralized future.
+                                            
+                                            
+                                            </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+            </div>
+
+            
+            <!-- Add your page content here -->
+        </div>
+
+</body>
+</html>
